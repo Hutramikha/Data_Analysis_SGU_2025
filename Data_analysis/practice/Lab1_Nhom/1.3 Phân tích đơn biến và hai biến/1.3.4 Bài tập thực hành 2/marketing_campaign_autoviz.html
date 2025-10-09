@@ -8411,7 +8411,6 @@ Time to run AutoViz = 9 seconds
 </li>
 </ul>
 <p><strong>Không có giá trị thiếu</strong> =&gt; dữ liệu đầy đủ.</p>
-<p><strong>Có cảnh báo về nhiễu (Noise)</strong> trong bảng =&gt; cần kiểm tra kỹ để đảm bảo độ tin cậy khi dùng cho mô hình.</p>
 <p><strong>Nhận xét:</strong> Biến Response là biến phân loại nhị phân với phân bố mất cân bằng nghiêm trọng: phần lớn mẫu thuộc nhóm “Không phản hồi”. Dữ liệu đầy đủ nhưng có thể có nhiễu. Cần xử lý mất cân bằng trước khi đưa vào mô hình học máy để tránh sai lệch kết quả.</p>
 </div>
 </div>
@@ -8581,6 +8580,46 @@ Time to run AutoViz = 9 seconds
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=49a6e02a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Bổ sung bảng chéo cross-tab để phân tích</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+
+<span class="c1"># Đọc dữ liệu</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"dataset/marketing_campaign.csv"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">"</span><span class="se">\t</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># Tạo bảng chéo giữa Response và Complain</span>
+<span class="n">cross_tab</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Complain'</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s1">'Response'</span><span class="p">],</span> <span class="n">normalize</span><span class="o">=</span><span class="s1">'index'</span><span class="p">)</span>
+
+<span class="c1"># Hiển thị bảng chéo</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">cross_tab</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Response         0         1
+Complain                    
+0         0.850834  0.149166
+1         0.857143  0.142857
+</pre>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=27d45607">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -8588,26 +8627,25 @@ Time to run AutoViz = 9 seconds
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Phân tích mối quan hệ giữa Response và Complain:</strong></p>
+<p><strong>Phân tích mối quan hệ:</strong></p>
 <ul>
-<li><p><strong>Phân bố từng biến:</strong></p>
+<li><p><strong>Phân bố gần như tương đương giữa hai nhóm Complain:</strong></p>
 <ul>
-<li><p>Response: phần lớn là 0 (không phản hồi), chiếm ~90%.</p>
+<li><p>Nhóm không khiếu nại (Complain = 0) có tỷ lệ phản hồi là 14.92%.</p>
 </li>
-<li><p>Complain: phần lớn là 0 (không khiếu nại), chiếm ~95.8%.</p>
+<li><p>Nhóm có khiếu nại (Complain = 1) có tỷ lệ phản hồi là 14.29%.</p>
 </li>
 </ul>
 </li>
-<li><p><strong>Mối liên hệ tiềm năng:</strong></p>
+<li><p><strong>Không có sự khác biệt rõ rệt về tỷ lệ phản hồi giữa hai nhóm.</strong></p>
 <ul>
-<li><p>Vì cả hai biến đều có phân bố mất cân bằng nghiêm trọng, cần kiểm tra xem nhóm Complain = 1 có tỷ lệ Response = 1 cao hơn không.</p>
-</li>
-<li><p>Nếu đúng, điều này cho thấy người khiếu nại có xu hướng phản hồi cao hơn, tức là có sự liên hệ hành vi giữa hai biến.</p>
-</li>
+<li>Dữ liệu cho thấy tỷ lệ phản hồi gần như bằng nhau.</li>
 </ul>
 </li>
+<li><p><strong>Phân bố mất cân bằng vẫn tồn tại ở cả hai biến, nhưng mối liên hệ hành vi giữa Complain và Response là yếu hoặc không đáng kể.</strong></p>
+</li>
 </ul>
-<p><strong>Nhận xét:</strong> Hai biến phân loại Response và Complain đều có phân bố mất cân bằng, nhưng có thể tồn tại mối liên hệ hành vi: nhóm có khiếu nại (Complain = 1) có xu hướng phản hồi nhiều hơn (Response = 1). Điều này gợi ý rằng khiếu nại có thể là yếu tố kích hoạt phản hồi, phù hợp để dùng trong phân tích churn hoặc mô hình dự đoán hành vi khách hàng. Cần kiểm tra thêm bằng bảng chéo (cross-tab) hoặc kiểm định thống kê để xác nhận.</p>
+<p><strong>Nhận xét:</strong> Phân tích bảng chéo cho thấy không có mối liên hệ rõ ràng giữa việc khiếu nại (Complain) và phản hồi (Response). Tỷ lệ phản hồi giữa hai nhóm gần như tương đương (~15%), cho thấy hành vi phản hồi không bị ảnh hưởng đáng kể bởi việc khiếu nại. Do đó, biến Complain có thể không phải là yếu tố dự báo mạnh cho biến Response trong mô hình hành vi khách hàng.</p>
 </div>
 </div>
 </div>
