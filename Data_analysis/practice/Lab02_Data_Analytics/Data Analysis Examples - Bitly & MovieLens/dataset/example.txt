@@ -1,0 +1,11 @@
+{"a": "Mozilla/5.0 (Windows NT 6.1; WOW64)", "tz": "America/New_York"}
+{"a": "Mozilla/5.0 (Windows NT 6.1; WOW64)", "tz": ""}
+{"a": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8)", "tz": "America/Denver"}
+{"a": "Mozilla/5.0 (Windows NT 6.1; WOW64)", "tz": "America/New_York"}
+{"a": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8)", "tz": "America/Los_Angeles"}
+{"a": "Mozilla/5.0 (X11; Linux x86_64)", "tz": "America/New_York"}
+{"a": "Mozilla/5.0 (Windows NT 6.1; WOW64)", "tz": "Europe/London"}
+{"a": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8)", "tz": null}
+{"a": "Mozilla/5.0 (Windows NT 6.1; WOW64)", "tz": "America/Chicago"}
+{"a": "Mozilla/5.0 (Windows NT 6.1; WOW64)", "tz": "America/Chicago"}
+{"a": "Mozilla/5.0 (Windows NT 6.1; WOW64)", "tz": ""}
