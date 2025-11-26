@@ -1,6 +1,6 @@
 # **Data_Analysis_SGU_2025**
 
-## **Giảng viên phụ trách:** Ths. Đỗ Như Tài
+## **Giảng viên phụ trách:** Ts. Đỗ Như Tài
 
  ## **Nhóm SKTT**
 
