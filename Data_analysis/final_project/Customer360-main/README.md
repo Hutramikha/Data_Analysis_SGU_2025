@@ -28,40 +28,84 @@ Sử dụng **Olist Brazilian E-Commerce dataset**:
 
 ## Câu hỏi nghiên cứu (Research Questions)
 
-1. **Tổng quan khách hàng**
-   - Khách hàng tập trung ở vùng nào và đóng góp bao nhiêu vào doanh thu?  
-   - Tổng số đơn hàng, tổng chi tiêu trung bình theo vùng hoặc danh mục sản phẩm.  
+### **1. Phân tích mô tả**
 
-2. **Hành vi mua hàng (RFM)**
-   - Khách hàng nào là VIP, khách hàng at-risk, khách mới có tiềm năng?  
-   - Có outlier về tần suất mua hoặc giá trị đơn hàng cần lưu ý không?  
+#### 1.1. Địa lý & Khả năng tiếp cận
+**Mục tiêu**: Xác định khách hàng ở đâu và việc phục vụ họ khó khăn thế nào?
+- Số lượng thành phố đóng góp 80% khách hàng? (Pie Chart, Quy tắc: 20 - 80)
+- Top 10 thành phố đông khách nhất? (Bar Chart)
+- Trung bình khách ở từng bang, miền phải trả bao nhiêu tiền ship & chờ bao nhiêu ngày? (Bar Chart)
+> Kết hợp bảng đồ để mô tả vùng cho thực
+#### 1.2. Tài chính & Chi tiêu
+**Mục tiêu:** Đánh giá sức mua và độ "chịu chi" của khách
+- Phân phối giá trị đơn hàng như thế nào? Đa số khách mua đơn hàng giá bao nhiêu? (Box Plot)
+- Có bao nhiêu khách hàng mua đơn hàng có giá trị đột biến (cực lớn)? (Sử dụng tứ phân vị xác định 25% khách hàng mua với giá trị cao)
+- Tỷ lệ phí vận chuyển trên giá trị hàng (Freight / Price) là bao nhiêu?  Khách hàng có chấp nhận mua món rẻ tiền nhưng phí ship cao không? (Histogram)
 
-3. **Lịch sử đơn hàng & sản phẩm**
-   - Khách hàng thường mua sản phẩm nào?  
-   - Sản phẩm/danh mục nào bán chạy hoặc có biến động bất thường?  
-   - Sản phẩm nào có nguy cơ hết hàng (dựa trên bán trung bình và tồn kho)?  
+#### 1.3. Hành vi thanh toán
+**Mục tiêu:** Hiểu thói quen tài chính và tín dụng (Đặc biệt quan trọng ở Brazil).
+- Tỷ lệ đơn sử dụng Credit Card, Boleto (tiền mặt), Voucher, Debit Card là bao nhiêu? (Pie Chart => credit_card)
+- Số kỳ trả góp phổ biến là bao nhiêu (1, 3, 6 hay 12 lần)? (Bar Chart)
+- Có mối liên hệ nào giữa Giá trị đơn hàng lớn và Số kỳ trả góp không? (Mua đắt thì trả góp dài?). (Scatter Plot)
 
-4. **Đánh giá & Feedback**
-   - Khách hàng nào đánh giá thấp hoặc có sentiment tiêu cực?  
-   - Thời gian giao hàng ảnh hưởng đến rating và khả năng churn như thế nào?  
+#### 1.4. Sản phẩm quan tâm
+**Mục tiêu:** Xác định nhu cầu và sở thích của khách hàng.
+- Những danh mục sản phẩm nào đang mang lại nhiều khách hàng nhất? (Bar Chart)
+- Có tháng nào trong năm mà một danh mục `cụ thể` tăng vọt không? (Line Chart)
 
-5. **Phân nhóm khách hàng & risk**
-   - Cluster khách hàng thành nhóm VIP, trung bình, at-risk — nhóm nào quan trọng nhất?  
-   - Nhóm khách nào dễ churn hoặc cần chiến dịch giữ chân?  
+#### 1.5. Trải nghiệm & Sự hài lòng
+**Mục tiêu:** Đo lường "Cảm xúc" của khách hàng sau khi mua.
+- Điểm đánh giá trung bình (Review Score) toàn sàn là bao nhiêu? Tỷ lệ 5 sao vs 1 sao? (Bar Chart)
+- Chênh lệch giữa "Ngày giao dự kiến" và "Ngày giao thực tế" là bao nhiêu? (Giao sớm hay giao trễ?). (Histogram)
+- Bao nhiêu % đơn hàng bị giao trễ? Bao nhiêu % đơn hàng nhận 1 sao?
 
-6. **Customer Churn & Retention**
-   - Khách hàng nào có nguy cơ rời đi cao?  
-   - Đặc điểm (recency, frequency, rating, delivery) nào liên quan mạnh đến churn?  
-   - Hệ thống có thể gợi ý chiến dịch retention hiệu quả cho từng nhóm khách.  
+----
 
-7. **Khuyến nghị hành động kinh doanh**
-   - Nên gửi voucher, flash sale hay chiến dịch marketing cho nhóm nào để tăng LTV?  
-   - Sản phẩm/danh mục nào cần nhập thêm, tăng quảng cáo hoặc điều chỉnh tồn kho?  
-   - Seller nào cần kiểm tra hoặc tối ưu vận hành để giảm giao trễ?  
+### **2. Phân tích khám phá**
 
-8. **Tổng quan Customer 360**
-   - Tạo bảng tổng hợp theo `customer_id` với RFM, lịch sử đơn, chi tiêu, đánh giá, cluster, churn score và các khuyến nghị hành động.  
-   - Cung cấp dữ liệu trực quan và actionable insights cho chủ doanh nghiệp. 
+#### 2.1. Địa lý & Vận hành
+**Mục tiêu**: Tìm hiểu xem yếu tố địa lý ảnh hưởng tiêu cực/tích cực thế nào đến trải nghiệm khách hàng.
+- Có mối tương quan tuyến tính nào giữa Khoảng cách địa lý (Seller đến Customer) và Phí vận chuyển không? (Hay phí ship bị ảnh hưởng bởi kích thước hàng hóa nhiều hơn?).
+- Khách ở vùng xa có chịu phí cao hơn? 
+
+#### 2.2. Phân tích Giỏ hàng
+**Mục tiêu**: Dù khách mua 1 lần, nhưng ta muốn khám phá xem họ kết hợp các sản phẩm như thế nào.
+- Những danh mục nào thường xuyên xuất hiện cùng nhau trong một đơn hàng? (Ví dụ: Khách mua bed_bath_table có thường mua kèm furniture_decor không?).
+- Có mối liên hệ nào giữa số lượng sản phẩm (Quantity) và Giá trị trung bình mỗi món (Unit Price)? (Khách mua nhiều món thường là món rẻ, hay đại gia mua nhiều món đắt?).
+
+#### 2.3. Động lực của Sự hài lòng
+**Mục tiêu**: Tìm ra "thủ phạm" thực sự khiến khách hàng đánh giá thấp/cao.
+- Biểu đồ tương quan giữa "Số ngày giao hàng" và "Review Score"? Có phải cứ giao > 10 ngày là điểm rớt xuống dưới 3 sao?
+- Mối quan hệ giữa "Gap Time" (Ngày giao thực tế - Ngày giao dự kiến) và Review Score. Khách hàng ghét việc "chờ lâu" hay ghét việc "bị thất hứa" hơn?
+- Liệu khách hàng có giá trị thanh toán cao (payment_value) có xu hướng cho điểm đánh giá thấp hơn do kỳ vọng dịch vụ cao hơn hay không?
+
+-----
+
+### **3. Phân tích chẩn đoán**
+#### 3.1 Chẩn đoán "Tiếng nói khách hàng" (NLP tìm negative + AI model phân loại điểm nghẽn)
+**Mục tiêu**: Giải mã lý do thực sự đằng sau các con số 1 sao, 2 sao. Dữ liệu số (Rating) chỉ cho biết mức độ, dữ liệu chữ (Comment) mới cho biết nguyên nhân.
+- Trong số các đánh giá tiêu cực (1-2 sao), bao nhiêu % nhắc đến từ khóa liên quan "logistics" (chậm, chưa nhận được), bao nhiêu % liên quan đến "product" (hỏng, sai màu, hàng giả)?
+- Có trường hợp nào khách đánh giá 5 sao nhưng comment phàn nàn (hoặc ngược lại) không? Tại sao?
+- Những chủ đề (Topic) chính mà khách hàng thường thảo luận là gì? (Ví dụ: Topic 1: Giao hàng, Topic 2: Chất lượng, Topic 3: Dịch vụ CSKH).
+
+#### 3.2 
+----
+
+### **4. Phân tích dự đoán**
+#### 4.1 Phân cụm Khách hàng (Clustering, unsupervised learning)
+**Mục tiêu**: Tự động gom nhóm khách hàng có hành vi tương đồng mà không cần định nghĩa trước.
+- Nếu không dùng RFM (do Frequency = 1), liệu có thể phân nhóm khách hàng dựa trên tổ hợp: Sức mua (Monetary) + Độ nhạy cảm phí ship (Freight Ratio) + Thói quen trả góp (Installments) không?
+- Nhóm khách hàng nào mang lại lợi nhuận biên cao nhất dù chỉ mua 1 lần? (Ví dụ: Mua hàng giá trị cao + Không đổi trả + Phí ship thấp).
+- Khách hàng ở các thành phố lớn (Sao Paulo) có hành vi khác biệt hoàn toàn so với khách hàng vùng sâu vùng xa không? (Cụm "Urban Shoppers" vs "Rural Shoppers").
+
+#### 4.2 Dự báo Sự hài lòng (Classification, Supervised Learning)
+**Mục tiêu** : Dự đoán khách sẽ vui hay buồn ngay khi họ vừa đặt hàng (hoặc vừa nhận hàng) để can thiệp sớm.
+- Dựa trên thông tin đơn hàng (Sản phẩm, Seller, Khoảng cách), xác suất khách hàng này sẽ đánh giá 1 sao (Bad Experience) là bao nhiêu %?
+- Thuật toán đánh giá yếu tố nào quan trọng nhất trong việc dự đoán 1 sao? (Là do giao trễ hay do phí ship cao?).
+- Ở mức thời gian giao hàng nào (ví dụ: ngày thứ 15) thì xác suất hài lòng giảm mạnh xuống dưới 50%?
+
+#### 4.3 Sự rời bỏ (Churn)
+**Mục tiêu**: Kịp thời nắm bắt khách nào sẽ rời đi
 
 ---
 
