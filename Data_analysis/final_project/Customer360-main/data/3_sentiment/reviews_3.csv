@@ -1,0 +1,235 @@
+review_id,order_id,review_score,review_comment_message,sentiment,category
+7b66de927426b71a817aa36df5e8a0b3,634e8f4c0f6744a626f77f39770ac6aa,1,Muito bom o produto e preço cobrado!,Positive,Product
+8bc4d875dbab927e9190060688edc80f,b6e5ddeaf2e5b56015e295beb333f305,2,Excelente produto indico a qualquer pessoa.,Positive,Product
+b42955e5003fa4e9449770fb8b50d30d,1f186ad4ad389666cd9482ce1942038d,2,Demorou mas entregou!,Positive,Delivery
+d04bfe3b90e5436b03b65e86d8b6e62d,9292f2ff747a4f8c6580fc8377bb1c8b,2,Apesar da demora na entrega. No mais foi tudo bem.,Positive,Delivery
+488f5ad66f112743c91ae61731522375,5e3ec924bc1a1f3793e12632c2b2f85d,1,"muito obrigado
+",Positive,Product
+75ed80f68d731eeb23e6b508e5cb9fbd,ccbd198eb55e22f3b2240d1605961c5f,2,Gostei mas veio com a mola de apoio das folhas quebrada de resto está perfeita ,Positive,Product
+596337da62fcd0fbfeae639394a6d56b,2bdb4d9144e83d80bd260aedc3932c2b,2,"A case de tablet veio perfeita. o suporte de tablet veio com defeito no encaixe, alem de ser um produto muito frágil para segurar um tablet caro! A entrega foi muito antes do prazo.. A loja impecável.",Positive,Product
+84bc0bf21641e8a51d43e90264fb5b3f,6a713ce5b2cfc769104c39775b662625,1,"No mesmo dia que usei já encheu de bolinhas, fino demais ",Positive,Product
+896b97b6da69a825ce1dbcf3f0686f10,4886ba57227500f0a374a1fd079b02f1,1,"Gostei e recomendo!!
+É de confiança!!",Positive,Product
+c6516c06c0d4d740735aa0f108b3a5a7,0dd15079372ce401518ac26321947143,2,"Já tive um Skullcandy do mesmo modelo, a qualidade era inigualável, detalhes de acabamento perfeitos, experiência sonora agradável e potente, principalmente no destaque dos graves....este não é Skull.",Positive,Product
+18bef55047c82448823a68ff23798275,3bae0297ddeacb52eb9b17d9616dcf1c,1,"Sempre comprei no site e fique muito satisfeito infelizmente pela primeira vez aconteceu esse imprevisto 
+Espero que o problema seja resolvido em breve pois preciso da mercadoria",Positive,Product
+5f492814e4e3f7398ec8eab0b2f41c48,9ba2c9b0388923ffcdc4c4f3dffec0a8,2,Bom e rapido na entrega,Positive,Delivery
+6d6b086e00c22fb0fb8f0aceb33d0f3f,68b4e818c05f12bec3a76417829c2846,1,"A cadeira é linda e confortável,mas não compraria novamente. ",Positive,Product
+ff77e689593e261a118f2227b72976f3,8d1bc6d158769393c1ec54c05b734652,2,Já sou cliente a um bom tempo e entendo o atraso mais esse deveria ser o diferencial os produtos já sabemos da qualidade exelente...,Positive,Product
+79af41f1db82d5f2a9666779d739904d,7a7375f58149053d599aae579288fd96,1,Sem palavras,Positive,Product
+0dd7e277fa93293ee07973a2161c87a9,ff5b0acaf838e06bba2881e7ea4a474c,2,"Lindas peças, porém muito frágeis. ",Positive,Product
+7071ca4c66b85b5182ab667c2f2b9739,f7fde4811e5d7df0df4f46e475c4d752,1,Eu gostei muito dos meus produto,Positive,Product
+64b798072e372c1c60cc8044df9eb036,bd859dd7a6a1b8c1df9fcb75c3604eaf,2,"produto regular
+mas as estampas sao lindas",Positive,Product
+1b4bab27425a3cfafaa7f6b83e9e4450,b3206cf64b7cd1480a6c6f9912b20666,2,Estou super satisfeita....super recomendo,Positive,CustomerService
+bb5a44bfe1d17fe278f7c14c375df98b,c2fd626797fb5ca566e69305eebca31a,1,"Gostei de comprar nas lannister, envio rápido e sem problemas",Positive,Delivery
+a7dd9f04c8d3dbeb7c8687daafa006f1,ef161f48adcaeede5920308df1c280b6,1,obrigado,Positive,Other
+0e2e916ab3c258e2908c9fc37743f497,f6f3648ab3e140b29823bbdb84a34455,2,No quesito entrega vocês estão de parabéns. Chegou muito antes do previsto. Pena que o tablet trava muito e o sistema usa muito do espaço interno que já não é lá essas coisas.,Positive,Delivery
+e7fa506ba0d44fca3eb969d710168fdc,55e68a38817afa16c0547a6ebeeff145,2,"A colcha é bonita, o tecido é fino, fácil de secar. o acabamento das almofadas menores não é legal, porque ficam apertadas.",Positive,Product
+a75a85f6afb0019811dc111e07027a0d,84f22866255c63a5269b53fe16d592bc,2,"nao gostei do produto, mas ele foi entregue",Positive,Delivery
+a7c609ba8760ea2235d4bd61a0f4f7d5,9dbf98463571bd46e501a18aa7c2899a,1,ótimo e recomendo nota oito e meio.,Positive,Seller
+a0c88283da56ce91de90f14442b77696,c6e024e14773d2ff5afd6daeaaa9239c,1,Ótimo site para comprar muito confiável,Positive,Product
+a48dd5824a95a050bb7a7fe6f1679afc,09868b0eb512bfbbe98900f16d79d055,1,otimo,Positive,Product
+f224725a43d26e6347dbac95d20b93c8,1c210d8d0ed766032afaef9c51cc04ba,1,Minha mercadoria chegou antes do prazo e é exelente ,Positive,Product
+ef753d7d44c4a4052a3489dc8bc2a1b6,e72511587872c5769d43aeda089b28ca,1,Excelente,Positive,Product
+3bf6b0cc2f0c0ef9a20d1e1319bca3ba,88d0690c4598321b6166f806c2da7034,2,Razoável ,Positive,Product
+7c099f4f3aaed02d96b417fe57fe3596,68d30b64daa2ee72a7f61b86717c20f4,1,"Devolvi as toalhas, porque não foi o que esperava em relação a qualidade do produto a entrega e assistência da baratheon estão de parabéns portanto comprei outros jogos de toalhas",Positive,Product
+a12a7dd6768dd144664f60bf3e19d9c0,b2a33016c177ab9b6f09ca324bb26ec6,2,Parabéns para toda equipe.,Positive,Product
+23c61a533808b4764335b13fa9bef443,e51c3cf4bfd09ebd8f6d0174af3ed628,1,SUPER RECOMENDO,Positive,Product
+f647a0b3144e89e47201bfb5f7aadb14,0d1125edf803ac46b5804fc0d29730c3,1,"Ótima loija produto entregue dentro do prazo,Produto muito bom",Positive,Product
+4632f41c47e5ee556a97dd2323746978,39147bdfd750c2d950429efe16ea6cf7,1,"material com uma qualidade muito boa,letra para leitura muito boa,e foi entregue tudo certo.",Positive,Product
+cd1eab92787417aea80938de8098e860,593732bc7133b31a809050a3df77f34c,2,"Acho muito bom esse tipo de serviço facilita muito a vida das pessoas, mais tem ter mais agilidade na entrega.",Positive,Product
+c7529aedca55328be0bfaa8f20d87ff2,ad1e6579c0a8fffc5d8fe3f60fec72f5,2,Pelo valor tá bom,Positive,Product
+fc2fef694db6a15268ef8d653a586821,9e13610356ba6774adf5c06c32f8448f,2,Muito bom!,Positive,Product
+4d05e688e4fe2cb06fa30f9dedef9d24,ecf9330db0f11c5086969ed6c7468d4a,1,estou aguardando,Positive,Other
+f9dee0f51a25f9492f8bd2b645709d38,b3298cf726e74882e77238c731e53f30,1,"O produto no site aparece com as estampas mais bonitas, as cores mais vivas. Quando você recebe, o fundo da cortina não é branco e nem a estampa floral é tão bonita como aparece no site, parece velha.",Positive,Product
+b92fd4a7a4476609dd42dbdc92874662,09ebfabd9f6552771f5d90e099fa0738,2,"Adorei a rapidez, o produto veio do jeito que pedi mas a película veio toda trincada. Não vou mandar de volta pq não vale a pena pagar o correio por conta do preço do produto.",Positive,Product
+aee72c0f293739ab9450a25d7966c5b1,c038a5b29abf034f262370c75f739875,2,"O pedido tem duas etapas, uma foi entregue a outra não. Estou aguardando, são fintas para impressora do computador.
+Grata por receber o produto e poder continuar prestigiando as Lojas lannister",Positive,Product
+775c3bf98315bdddc4df1379632ce717,05aacaaec38544ee11d42a69bc098d4b,1,sem palavra pra descrever,Positive,Product
+c3db33f9fbba7d039ea00db2f56680d8,050c064324e4ea0fd891e928b776a24a,1,Toalhas super finas.,Positive,Product
+fccd9502cc1e32cde928d34f52d8ad5c,5f39fdc052a768523f7c3bed2cfd3fc3,1,Minha avaliação é zero. Estamos desde o Natal aguardando q o nosso alto investimento feito com muito esforço traga a devida alegria a uma criança altamente merecedora.,Positive,CustomerService
+8a3dcc75087382342bd248c608d098fb,69a416ca37d8dcf85093a41ddc92fcd5,1,"Infelizmente, o produto veio errado. Pedi chocolate e veio chocolate amargo. Mas o produto é excelente. ",Positive,Product
+4991c3612ddb56bf3c9ec48b1fe46e7b,d6b18764545dfde7b5ee30af60e6fc0c,2,MUITO BOM ,Positive,Product
+84bff47e070ccc33c428c930b0faee80,e2ba84b9fda1f36c6b2ae25097ef72e0,1,"A entrega foi super rápida, está de parabéns. A bolsa é bonita, mas eu pensava que o material era melhor.",Positive,Product
+52c97eaa8423be300b20474053645896,068c06f0ea08ab32e127f87aafaa834d,2,A cor não veio vermelho como na descrição do produto e sim vinho... O material achei q fosse melhor.. Porem vale a pena pelo preço...,Positive,Product
+8053073c46ce742bbc37d9df990a0bd0,af393d2317ee5dd4362190cd7b2f80a6,1,Mesmo a entrega arrasada eu ainda quero minhas panelas,Positive,Product
+b1311ded9a365b87ecef3b95511db5bf,2009bc59edeb703f6656ed6103650c3a,1,O material da mochila ficou a desejar.,Positive,Product
+199230aa533406b9564ad1ce09fe0f4c,c4d2f075fc3bf3a06d1e68e113c35cbd,2,"tenho outro sling de outra marca com tecido muito mais macio, maleável e agradável",Positive,Product
+2c99e428ec08b0a05f47a5e4c0b4c248,151458af49738a9727dd61b22cde2acf,2,Produto otimo so demorou chegar...,Positive,Product
+cacfd4a72d29fe6cf64fb3accc54df7a,e44f8bcf1ae28a8f29c2ef7d87466da1,1,GOSTEI MUITO...,Positive,Product
+3b7d55d2bf5c68d6125138ea91391cbf,9ce991aaccb4817cc0ca0b4edb5c5ff1,2,Bonito,Positive,Product
+938f28d65cc5d93cf5fb2fda6a5d804a,649c4145bbf6cdb7b096afa02bf5e299,2,"Gostei do design do produto, é bonito. Porém muito estreito o case, um dos meus hds externos não coube na largura. O case poderia ser mais largo, 1cm q fosse, para servir no geral os hds externos.",Positive,Product
+0aa9ee8d880dbe7042495c6eecb9a73c,ce6615d572a95ae4df7bcb227fa4d3a0,1,Produto ...bom..como eu esperava..com o no anúncio,Positive,Product
+787818dddedefa07293bc14664f4a6ac,4ef36d7c9950e291544d3a68d123992c,1,"A embalagem na hora da entrega estava perfeita.
+Infelizmente só abrimos a embalagem depois que o entregador foi embora.
+Para nossa surpresa a lata do brinquedo estava totalmente AMASSADA.",Positive,Delivery
+af9876b8ea0bc96e69f91898e3dd24fd,14a51ed90079fbc00365d6848d837ff3,2,recomendo,Positive,Product
+2f9d4dfd9bab5aef77ba65e035071f3a,fab2aac6ff265cb5b66ffec77b3fd882,1,"liguei para reclamar, foi aberto um protocolo, a lannister ficou de me ligar para dar uma posição e ate o presente momento não recebi nem a explicação e nem o produto
+grata pela atenção
+",Positive,PraiseOnly
+474dbd3b2ef7171ca7e14ed0770aa82c,86fafaeca020f3aecf950cc1fe6c68da,1,Ótima compra,Positive,Product
+fb2caeb72f7eea125025683db5674a29,fc4e4569c5ee84762423c8111fdea8c7,1,Correspondeu as expectativas,Positive,Product
+6683de03efea30e7972c82ff1426247d,1593fc1496428113d1e3ed901f14e05e,1,Ótimo,Positive,Product
+e55a3be1e1c813ddb7fdc1c0739a0a57,a551834624af764f01a27c3677e583e4,2,"Entrega no tempo previsto.
+Gostei muito,são bem feito.",Positive,Product
+b8fab172a4c5588e3a435f451e4c911f,7e47dbecc85ae7f45a4645b97b180157,2,Gostei,Positive,Product
+daf6f0b7c153fa0cc1689f28000ec087,beb19a07c97b17bc12756b493b5d59c0,2,Gostei da saia de cama box ... recomendado,Positive,Product
+8960af41113777a1c745ce672414a224,ef5d47c9d6d0ee9bff4c67fdf4c8356c,2,"Quanto ao prazo foi tudo ótimo, só não estou satisfeito porque paguei pelo frete para ser entregue em minha residência, mas não chegou foi para os correios. Tive que ir buscá-lo.",Positive,Delivery
+ee5d3b75e1850457b5f10c877e08a55e,299ae4512f5e613ac6ee6904cdd7daad,1,"Gostei da rapidez da entrega, e do email de avaliação ",Positive,Delivery
+3c5b52bdd8d21adccf02e09cc45994c8,100ebf8fcba296158a4021a35cfa1bf8,2,"Relógio muuuuuuito pequeno, ainda bem que sou magra . Ficou legal ",Positive,Product
+a3a794e568e69e8c815480b3b59fa7c2,d242fb417c35b6973c20dfab0514f8a1,1,"Adorei o produto, é exatamente o que eu queria, ficou muito bom na minha área de serviço. ",Positive,Product
+696d188c4b63c89ddf651e74f1399fb1,0cc217cdcf3d4c3aec8a027679e21f89,2,os parceiros da lannister são ótimos mas ainda estou esperando o produto que comprei ,Positive,Product
+2991f561e9521f368b35fa51532260f9,7c544ec2abdd2f2470ffdaf4215d8706,1,Cancelei o produto a mais de 25 dias e lannister continuou tratando meu pedido como entrega após varias reclamações enfim fui atendida por alguém q realmente sabe trabalhar... Alexandre nota 10,Positive,CustomerService
+1db2fba0728c322be63474decc754beb,b172124e9aab2e37fbc87515ab36ea81,1,Comprei o falcon e recebi o homem formiga. ,Positive,Product
+0fd331effb53a30677c5046c25f77854,bfead39f96afa0a674110835b6677095,1,"A targaryen para entrega de bijuterias e relógios foi perfeita, mas este papel não. ",Positive,Product
+4a0303ff918d8f421624b4eb92747d59,3bc3db2c8da17bdf6b0344b1a2ed7cb8,1,Continuo aguardando,Positive,Product
+512f435ddebc382762fcfa7f7867d166,e90521e4a0c9bf0152ce919b11442d99,2,Bom produto.,Positive,Product
+ea48bb4ff524835da4ab22650d648042,f1b7981b1f973562b7093fef02351b64,1,"comprei um chegou outro, porem e bonito igual ao outro e não precisou devolver ! ",Positive,Product
+8d1f14ee3841f8e908b7a52476d4cfcc,29afb9bd764e2f5be034429f3d6811cf,1,"Mandaram outro produto no lugar do que eu comprei. Comprei uma bumbleebe mandaram uma Batgirl, que já temos, minha filha aguardava essa boneca ansiosa, pois estávamos atrás há muito tempo. ",Positive,Product
+d2dc8c53afa7ba932d84fa1589e5adb1,8385fe258f97a33bb6ef40c70db6a4a7,2,muito bom.,Positive,Product
+fce56bf0fa0af771bb9f65026c186b0d,507920861be390ea5beb588607e4b0ab,2,Este recebi certo.,Positive,Product
+76753ed8c8690922064853102754064d,f1b1a53088d15140959d9ed6d98c7107,1,"estou muito satisfeita, parabens a toda equipe",Positive,CustomerService
+ddbdbd07536c26529e7bad6ed08ea29a,3f81d05c2ac8f59242c55b5b4460f795,1,"Adorei, chegou super rápido. Perfeito",Positive,Product
+54f113ad167a196e52d7f1cf5db36585,37e5806494067b6dcc269c80c272eab2,2,Estou aguardando ,Positive,Other
+f1b1c979fb5bb92887527bd373429b5b,c3aa096e341a72813ecfb834df16b91e,1,Meu sedex foi entregue aqui na empresa dia18 junho SIM,Positive,Product
+5d338ab41101fe9d4c0abe97a2301d33,f738b7f44b5be61ae982e3ea9c87289f,2,"A loja entregou rapidamente, bem embalado. Recomendo a loja, mas não o produto.",Positive,Seller
+991a0b2daf999b53dbcbb2da50e81c25,0eb7be028002e3ece83dc67396d6568b,2,"O jogo só é bonitinho, pois é extremamente fino e frágil. A entrega foi antes do prazo.",Positive,Product
+71da4094436e434dc15b1e7f986098bb,517bd49d869100558362e70c45f13dd5,2,Eu compro sempre nesta loja e gosto,Positive,Product
+c1305af1e3b01ca279b3cbfd90c6b428,a2ddc3a9833596493103ec4890b9871c,1,"A loja está sendo bem correta comigo. Vou devolver o produto. O anúncio dava a entender que era o relógio. Mostravá fotos do relógio, descrição das funções e a redução de preço de 899 por 250",Positive,Seller
+14b4ff79a7b16a4f9c8c7595030cc985,5cfb7b2cbf52f4ff3ec4b58f69b02351,1,Recomendo,Positive,Product
+7653e49b971ee8818d82caed50f2ed2f,d339c9a9c019e5beaf1cafb6cf77a23c,2,A cor e compatível com a da foto mas o material. E bem diferente. Bem inferior a da foto. Não. Gostei muito mas a entrega foi muito rápida ,Positive,Product
+d0ff213bf2c41a67459788091947b6ad,973acb049a8228a556877e26fb30c06a,1,Satisfeito,Positive,Product
+c79eed73ecc3e8905d22c2baaf49e047,38c08fbad68f49682733a8d83e997aa6,1,"Recebi o relógio e adorei,mas ele veio com defeito.Ponteiro quebrado😡",Positive,Product
+268c001e65c9cb176f33feb399f00796,191a21c0a0934fdb7dcd56c6b28a8682,2,"O produto é muito bom, só veio com defeito de fábrica. A parte inferior não está encaixando com a parte superior. Fica sambando. A loja é muito boa,porém estou esperando a resposta para a devolução.",Positive,Seller
+dab83f73fe7995f953d1ee9ac5faa72f,ab6442c868ae3695e675d3c39aa616a2,2,um dos melhores sites de compra,Positive,Product
+413d91661b25bf8cf8ce26c82a06c848,90e4c72e836cb3e0bea6a31fd981a346,2,"Muito bonita a cortina, só deveria ser um pouco melhor o material desfia muito fácil ,mais pelo tá ótimo!!!",Positive,Product
+983df327e26b3e86a10a1c33ab815232,b8db7d2782799267ee683bb2afa7f26f,1,Péssimos...,Positive,Product
+6ef12ee4985ba9f74fda873b98f5adc6,2cadf7b6bdc085bb4a8a3a32a40e344b,2,"SUPER RECOMENDO, VEIO ANTES DO PRAZO ....",Positive,Delivery
+6ed1f993d97261c00f549b72fb110ae5,4db6394e792193904621c7cab3e2120f,1,Boa,Positive,Other
+9ed428c8803020d1a744320f920adade,96656dd1c9f0e6b415561d8a6734ffef,2,Gostei muito ,Positive,Product
+f397d24f7d2e29bef955d50c54bcf0dd,9b1685c1d2c17bf27e16d9c7e6b1cba8,2,"Recebi tido certinho, no prazo certo. A Loja esta de Parabéns em relação a logistica, porém o produto não é de qualidade. ",Positive,Product
+2213fbf4f043524f6972d782182c2211,b2b4ad3f3df69da791d642a9bfc387e6,2,Ótima avaliação,Positive,Product
+04a1a2bcef00b57523cf847fc89fa883,459fd897f6e31b9302fffd9ded1c760a,1,"O baratheon é excelente, a entrega é rápida, mais os parceiros demora entregar os produtos, favor me informar quando a minha compra for por parceiros que vão se responsabilizar pele entra.",Positive,Product
+2456e7efff67f311120496a395833db6,0b6230647ed16f4b3e70282dc4b5b87f,2,A cadeira veio ok e no prazo. Dei apenas duas estrelas pois os demais produtos pedidos chegaram com uma semana de atraso na entrega!,Positive,Product
+8c66a7eceb2c4b202c3dfe47814d03a3,23d4f61b839ef6570d6bc7210be91d8b,2,APESAR DA DEMORA PRODUTO BOM,Positive,Product
+ac8fd25aecc8f208e978468177f3fe55,b2c3a55ae550dfe8fea2cdca7df095cf,1,"Não é o mesmo produto que fiz o pedido, mas chegou perfeito.",Positive,Delivery
+aa378f267344354b25d24f709dc712b0,b2f4a8f4cbaf1ca08d4454b73851e754,2,Gostei e recomendo ,Positive,Product
+c0a7a991d26976cd59e8a25e64062d25,ec88ef2191b5e44c70cd7fc05d9b5e95,2,produto bom minha filha amou,Positive,Product
+ad04c464738a477312422d0f3af40ddb,bf3b217e5505e5e9d746120dbb93b562,1,"Não posso dizer que gostei dessa loja ou que recomendaria ela pra um amigo, sendo que o meu pedido não chegou no prazo e nem uma explicação recebi. CONTINUO ESPERANDO O MEU PEDIDO . ESPERO RECEBER.",Positive,PraiseOnly
+2f0da819a4e19a5c335257aa3a0d8bcc,c7528ad3eeabc9fee6d6839e687f69dc,2,Razoável!,Positive,Product
+4f73bf95f1fb8baac0c6ab3bac3538b5,97abdc70b137f4f0934fb120debe3b58,1,Gostei só que demorou muito p chegar ,Positive,Delivery
+b5cc5f602b5b3ded75463b43ffcfac54,c16e485cad605e6180b08e988e5b5bbb,2,"Gostei do design do relógio porém veio sem a caixa e jogado na caixa do correio, na minha opinião cada detalhe é importante principalmente com a fidelização do cliente....",Positive,Product
+94e479842ae319e503c581402c8b6aea,7bb79f0edc7627c4bd27cf2979b0b7ef,1,"O produto é lindo, fiquei encantada. Parece roseira de verdade. So nao gostei pq no anuncio o preço era de quase 600,00 e estava na promoção por 172,00. Achei q teria led kkk",Positive,Product
+18407fa555aab2ee0e0337950f5b08b9,a9893544355d8abefe6473f21f162c5b,1,Comprei dois kit para maquiagem chegou apenas um. Recomendo muito sempre comprei nas lannister sempre chegou certo primeira vez que não veio certo,Positive,Product
+65b2354540dedc09a1623bed7e32d9ae,20b7f7b396dbb6dab793709e4cd89aa3,1,PREÇO EXORBITANTE. Me arrependi amargamente.,Positive,Seller
+b854b31dabdb93f67caa52964f0aaf08,df5b1e6edf6451c6cd99e167739d9d56,2,Melhorar o atendimento sempre ,Positive,Seller
+6c34525f268f78de3cc63f4e7bd1f722,bb1d4525338473e108ecf58d9cd57a6b,2,Ótima loja totalmente responsável com o cliente. Um Exemplo,Positive,Seller
+3f0b17a6e67885ab5eab4a07f5f71918,00beb247698c6aae94e3f859d279e2cd,2,Aguardando para avaliar ,Positive,Product
+38c01893068632a8608797661d7e76d1,d1e15a79329ed78d7982521b3b3b2a8f,2,"Boneca linda!!! e a entrega no prazo , muito satisfeita .",Positive,Product
+a989110e0d74588b1da9302eb638294c,21dc00cebbf91043aad476465c49c42f,2,"Ótimo preço, porém ainda não foi entregue.",Positive,Delivery
+15a1bbca011f0dd08bebccf34291199a,355a4f037048ba07c6bc1b564d6a8448,1,"Recebi o produto perfeito
+Grata",Positive,Product
+fbdeefcd8d4c38df21f6c384f45a208b,10b64ed7e88bc66762c2637eb63e05b5,1,Com poucos dias de uso já está super aquecendo.,Positive,Product
+c387f66eefa39ad9538f89141f929b53,01255808a3d38a8dd69aa93265a4cb88,1,produto melhor do que o esperado.Valeu,Positive,Product
+f4e46354e0f577109f610bde000e2ed2,a7abe735fa002a72636ab38fcac70330,2,Acho uma Loja maravilhosa que tem tudo que agente precisa.,Positive,Product
+2e1da3cdbb12ba8276c370ece3bd754b,9a769002f689e9dd972f6008d7312ead,1,Muito bom eu gostei ,Positive,Product
+0b230254983499bbe24dd28d09cbf955,24f937ccbe294a3f3d24859938e01915,1,"As bolsas são muito bonitas, mas verificando a costura acredito que não será muito resistente para o uso no dia a dia. Mas atendera minhas necessidades no momento. ",Positive,Product
+36ec7beab972a0bd81e25c048195342f,7433b1786e1af2042c2c4c76d3e4b750,2,Razoável. Achei a manta muito fina.,Positive,Product
+05bfc02874ba328dd8d96926f79c3cbe,1f32e76e92fc0ebf756639dad26ebaa9,2,"O tapete é bonito, a entrega foi dentro do prazo, mas não tem 4 cm de pelo.",Positive,Product
+f48b51510b24041990bd99257613b2b4,957835fcdd687e80443310e35eb113b9,1,Muito Agel com a entrega obrigado,Positive,Delivery
+77e528454194be0821e7d49fb0eb42f1,364b5f3b94152788007c68501e6c79b9,1,Excelente,Positive,Product
+09d02cb21d08b7abbc92d2f2b8ab6521,88d3ffbd9471d0ba780fd0370a0d7892,1,"RECEBI UM PRODUTO F-A-L-S-I-F-I-C-A-D-O. Ñ SABE NEM DISFARÇAR. TOTALMENTE DIFERENTE DO ORIGINAL. DEMORA PARA RESOLVER MEU PROBLEMA, NÃO CONSIGO TROCAR NEM PEDIR REEMBOLSO. NAO COMPREM COM targaryen NUNCA!",Positive,CustomerService
+e4d76f28d193b4d723a5b58c61d67e5e,45356b921c317565a85a7830994e288f,1,Boa noite. Solicitei a fronha preta e recebi marrom...,Positive,Product
+0ff8886584271aa53a81ea67bb5dd89e,85590544453efd501d242d84acdf9990,2,muito bom gostei do atendimento veio bem antes do prazo,Positive,Product
+df04781ea4bd396f9c639f30ce3de9f6,d2787e74c073dd7a21b4e4a873abd9f1,2,"Eu tenho uma dúvida,pra tirar mas não sei quem pode me ajudar,sobre a entrega ocorreu tudo certo dentro do prazo,meus parabéns ",Positive,PraiseOnly
+d3c5a0cefc6bd340ccb36f7d031263bf,45a48df7b18435ce6e3c03ba6c6c2386,2,"Só o tecido é muito fino ,mais muito linda minhas meninas amaram,entrega antes do prazo muito bom! ",Positive,Product
+696a80628f16220233a31cab1ce3ef30,1be187af7e77d6ee0671be02c229b679,2,Linda.entrega rápida... parabéns,Positive,Delivery
+94213f1db5417565148101250153734a,4b42a606687e048a7a33669b84bf8690,2,"Gostei muito da pontualidade, da mercadoria,mas infelizmente o produto nao foi entregue todo. Pedi 2 kits e me enviaram só um. Como faço pra receber o restante?
+",Positive,Product
+2097099ab5d7679eea62752cd2b8fb5c,8023039e9b07973c9aea60155b52e41a,1,"a luminária é linda , mas comprei e paguei 3 luminárias , só que foi entregue apenas uma luminária",Positive,Delivery
+08d02cd2b8f2e1941530e843c0903ce5,0fba53cb4e9429e38cd2750c32fa24a5,1,Adorei recebi antes do prazo,Positive,Product
+e9192640ad2339ad2ee1d318fe81bb63,bbc289789c7c2753320ce35b3fb773a2,2,Um excelente site. Super recomendo.,Positive,Platform
+64f7ea746a8452a22e929f707c0695ef,5038751dab3b14db2b1423edc9e0397e,2," entrega foi rápido, mas tem um porem. Gostei do produtos em partes, muito bonito o kit, mas a parte do desenho e em papel sem alguma proteção, poderia ser impermeabilizado ou pintado .",Positive,Delivery
+46c22a7632254e806c8a1cd0d10dfade,b422d4bf31b728380653b1ce72e011b3,1,Cumpriu com excelência ,Positive,Product
+045c07d07542446d9633a752d31b5ef3,f5d4eecb3411ba9859d303ffc7626277,1,Não recebi. Ansioso para receber.,Positive,Delivery
+a0c54db12ad83286199e33beea35dcaf,59ee425a0f0cd825c79aafe5990b7bac,2,Serviço muito bom,Positive,CustomerService
+36ec7beab972a0bd81e25c048195342f,a4b276bd4a9eba543ec90cdf29a67308,2,Razoável. Achei a manta muito fina.,Positive,Product
+5751bd404e988489c5b3ff0dbe3c0ac3,69477156227df21c82fda29850060511,1,"Eu só queria receber o meu produto, estarei aguardando de novo, sei que alguns ai estão com dificuldades ou sei lá o que, mas eu queria muito esse produto, eu gosto muito da lannister.",Positive,Product
+ab938137df4cfa0eda6967e32b4a9b1c,894f6cd6c690b0d8d94011c8461f25f4,2,Nada a reclamar recebi com antecencia ao marcado.,Positive,Delivery
+eb192f11c35521a291202bc1ada26623,d167a1099cf2b9ccd885c665394f5fd9,1,Entrega super rápida... Produto com ótima qualidade... Super recomendo...,Positive,Product
+6d33a7b70521b7fb2194138533ebd2f9,27791b643439f653faa711f08d8b801f,2,"É muito transparente, costura soltando e não veste como na foto, tenho outra capa, e essa sim é perfeita, sendo assim, não recomendo ninguém a comprar.",Positive,CustomerService
+9af35b075a6eade140ae58c39e962249,cf165c316414f3f5ef8fe2ef84a443c3,2,Muito legal em ,Positive,Product
+37ce09037d58596511980626c8d9230f,6b6691a02fbc1d93db80af20e602b8e9,2,otimo,Positive,Product
+923521f64e6b242cf17f9bc9eaa5eda3,effe6b3c0a442e88e41a15c0cdd09a83,1,Super recomendo lannister. Entrega tudo no prazo. 🖒🖒👏👏👏,Positive,Product
+5065761b18c7c5b73ec934b68cdd9efe,ac89e7344d2cb5597d862e338301ef8d,2,As raquetes vieram soltando a borracha da Madeira. Tive que colar com uma cola instantânea. Produto nota 3. ,Positive,Product
+22725a1890ff2d1182c10d5f346aa538,1acffcfbb35247b9d15611ce0fe50460,1,nononono,Positive,Other
+c7781fbecabb290532e1a9b8f787e6d3,0933fe2645eef2cb8ca4aeadb9d3834b,1,Adorava comprar neste site!!$,Positive,Seller
+e8440b1e9150ed83415cc8805f91fa46,3629454fe243df9fe9b49babc52d98e6,2,A máquina tem um acabamento fantástico e é muito resistente eu indico valeu a compra!,Positive,Product
+30ed41912d9ca9c27704a92fbe905696,f2710c3e65b68cfc927a8aac6ecebe83,2,"O cor e estampa não é igual que a foto,mas ...gostei..",Positive,Seller
+d13f126ed378c0ecce5c987b192bdc29,f432f3c0fa070bf9e7fc4d4598124027,2,"Tive a impressão de que o produto era maiorla quando estava com ele em mãos pois no site era diferente mas gostei do produto. ..super recomendo essa loja muitos precisos na data da entrega 
+",Positive,Product
+4055d9630abc0fa8048c912e07de9aac,0a0674921d2acf422fa3f4fd78717451,2,"Ótimo prazo de entrega, até porque foi antecipado. Porém, como escolhi outros produtos além dos dois que chegaram - não posso que como cliente fiquei satisfeita.",Positive,Delivery
+36e3be2d47752add673f576c92e9b260,cc06f04e742657f674ab020cdb9ab887,2,Otimo,Positive,Product
+5a6214bd950cf5ef81a7fdefba14917b,a2d61fcc6a85b2662e5ba230a206dd72,2,Boa ,Positive,Other
+8f3fae50517ca5ad4fa73a872372e5bc,4cb054441d2b65e4e0f4fb128f1b7b49,1,é muito fino ,Positive,Product
+ad0f2d32ddc630252875bfa2d800942b,b28d8bbc74731fb20234ba949894dd13,1,"Entrega rápida, mas esperava uma qualidade melhor do tapete, pelo preço aq na cidade encontrei melhor,mas gostei do desenho.",Positive,Product
+99b3147efcbeee182d94b1f5597d7ad1,d704531521342cc30fbd72ab1c5eb9da,1,Otimo,Positive,Product
+650f27998c7eb14a72302066cf6f8185,20ece825fd1a3714c240d58a96df35ea,1,Já faz um bom tempo que compro na americana e nunca aconteceu de atrasar nada mas esse produto foi demais até agora não recebi meu produto.,Positive,Product
+6e17909168b5df32eb790e1539b8f18d,7ed696782f4472458c5f1fc95bf5d6ed,2,otimo produto,Positive,Product
+f56e634b101a0c0d54e5de0df94e9bc7,e04f952af9764d87d5a0ac5e7cf48cca,2,Gostei veio como esperando nota 100 recomendo muito bom legal ,Positive,Product
+4417114efd51bb3e0732dc33f35742b6,fa0705d5bfc72c07badff6fcffd697f6,2,o produto é bom especificado no sait otimo só nao recomendo porque no sait falava que entregaria em 15 dias levou 30 dias para chegar afff a boneca é bonita amei otimo tecido nota geral 10 do produto.,Positive,Product
+e478ea33c62393caf54942f470ebdc46,afb770251c33fc53665114a61b41a835,2,otima qualidade,Positive,Product
+93a47bc31400c0c932fa8723b40bef1c,6eec967cffa8ad455dbdf0d5b797f912,1,Sobre a loja nada a reclamar o produto achei diferente do que eu tenho,Positive,Product
+a7205ba9f4515ded74acbc6e45a7666b,c70fef01838263b8faae59464fd721a3,1,Bom produto: superou as minhas espectativas,Positive,Product
+c8f87e249f8573942b8b8c7fae93aa52,0914478fdcadbaa5c8c8b3442b4f28d2,2,"Comprei outros produtos e sempre vieram, só estou tendo problema com este, mais no geral é um site muito bom de se comprar.",Positive,Product
+36e96da4624146dacfdf755c9e5c2178,d908de4c1a0a5ef56f75e404abb7ee10,1,A tempos sou cliente desta loja sempre satisfeita cm minhas compras. ,Positive,Product
+127fbfd58116551687cec80bcabbbbab,4c5db134eb6b1acaccc406e82f34b09f,1,"Produto fragil, estrutura toda de plastico ressecado, desconfortavel.
+
+Não recomendo o produto.
+
+Mas vale ressaltar o ótimo atendimento da lannister e rapidez na entrega.",Positive,CustomerService
+9c528105dfc73bee0dec5dda37d5a1d8,4d2cdf20fe9f9e0f398d9323ae332b08,2,"Não gostei do produto, mas a logística foi boa.",Positive,Delivery
+9862967da12b5624de09062c1de0bce4,296e1020c48c85d07b3fb22436e3e65b,2,"Legal 
+",Positive,Other
+10d6ab8d2bca738ac74fcf471688d30d,24b53730781f4921d543c4683b26c072,2,Bom produto,Positive,Product
+f45a6fc6537406572a422d87a295b6f6,997c9f908691b9dc69c3b7b3a4433c65,2,demorou demais a entrega. produto nao muito reforçado mas bonito,Positive,Product
+32a4d7435c2a60b73f6c0d7cc358ae90,ad4f45ebcf8664ef5e1bb5073359f9f1,1,Eu comprei o pendente na cor AMARELO e ele veio inox.,Positive,Product
+3fca95425de85f09a53a4ddf53382986,8e5a8b1f6cf7513edaf3bf7c5573ebf4,2,"Produto ótimo, a entrega deixou a desejar",Positive,Product
+db5ba450f7c5236936f57c0e7e20fddf,fb34958eef73f87fb9d50297c5cf14d9,2,Estou aguardando,Positive,Other
+94962129a8a433990afee6b59d598fe1,1d93ea147657027165c888212671758c,2,Gostei do jogo de toalhas de banho que encomendei só que veio dois jogos dá mesma cor e eu tinha pedido um jogo de cor vinho e outro azul.,Positive,Product
+a7fcf7816630b10594b27ad1e0dafa2a,7a66067b9e10d4702dd4acd8c3def707,1,"Comprei um jogo de mantimentos no.prazo.perfeito mas as vasilhas estão todas manchadas por dentro e não tem como.fica e lavando.pois o desenho de fora e adesivo de papel que não é descrito na pagina
+",Positive,Product
+f85ccbe437d8ef17166d6d31d632620b,2d13948675eb090c15d5f89f0a98145e,1,"Nota 10
+",Positive,Product
+91d24a35c658846ccd299eac0a3e71d8,727c209cf1bf38111a8f69422ad7fab7,1,amei a forma de entega foi muito rápido e prático to satisfeita agradeço este site e ao vendedor pela agilidade de atendimento e entrega do meu produto..,Positive,Product
+6c9bc25ad9a4a6fff78bfd6811f22229,4093b84461e9ee4cfa6b1f720d1003ac,1,Recebi o produto muito antes do prazo.Isso é excelente. Muito satisfeito.,Positive,Delivery
+65e6a1e52fdfab9a0cfd32db5dc0f581,ebeff2700216eccd71f9e7de886652b3,1,produto de média qualidade ,Positive,Product
+ac49adb69fb972c9db128925dd9ec847,daf73a7e8196228eedcdef72c89aaa34,2,funcionou perfeitamente,Positive,Product
+574578f8fd0d240b84b8965a5f425edb,53022bc7203c0c8ce655a82521c8867c,1,"Qualidade do produto deixa muuuuito a desejar. O baratheon foi perfeito, mas o produto é muito ruim, não recomendo sua compra a ninguém.",Positive,Product
+1219254b06710d87180a40afcb37da20,655b20c809450d9f4e2d3b62d5b7f416,2,recomendo demais,Positive,Seller
+57e5c59617127cf4b024aaae61829894,6ed7913722200b05e7d5df38f1ee777e,1,Profissionalismo,Positive,Product
+c15a6a3d4d8ffcae58c06f7350f850f7,5ef22ec79d2414ffa56518f9f631acae,1,Loja razuavel,Positive,Product
+323c6e393bde5254a99457ab716de7c7,d889a8ab0342b0b548b78963f15aa195,1,Ooo,Positive,Other
+183ce3ae9e0fdeb312f08d7d31fe5fe5,d0e36957b6d2a04cc21ba07f7bbad90a,2,Pelo o preço sabia que não era de muita qualidade mas resolvi assumir o risco... Produto razoável,Positive,Product
+ecbaad7396b8dc532b177f40176dc368,d199e49e9cd642beda8a36b85fd6d51d,2,muito fina,Positive,Product
+5ca0921666261129f96f6344a7bc215e,017b84f6bee0e4287eb8a8c9f5df549e,1,muito bjom,Positive,Product
+91751ee707acf7159da1d18b47ff3f96,42aba87a5d74e497fc853cde910d4e32,1,comprei Ac021 Multilaser recebi super macio gota,Positive,Product
+a7ca43954a4abd9a400d2c57a26e48cf,2526d08a2985e1b276a405915c2d8be9,2,BOM,Positive,Product
+8e93dd240ee9c0d8ba83436980caa09e,543191db0a8f28cd664d601260fb1dee,2,"Colocaram nos status como entregue meu produto, quando na verdade recebi apenas um cadeado e uma carta de justificação de atraso na entrega. Mas, mesmo assim recomendo esta loja. ",Positive,Seller
+43f7e556068e3dff6715a2d6d47e4aa8,ecfac5c29a3281d0ccd4cd7b53ae7ece,2,deu tudo certo gostei,Positive,Product
+db2e64f27aa3a861b507d184f004b192,ddbb7810ee091e41be585fc08828020f,1,Muito bonito porém Vinhedo quebrada ,Positive,Product
+074aabfc2c2fbe887037de74a0b089d4,648b4f683ccf074ebe65a73c8096dd18,2,Veio certinho muito antes do prazo e fiquei super feliz ... so a cor do objeto veio errado tinha perdido roso total rosa e veio na cor rosa com verde meio estranho mas o produto e muito bom ,Positive,Product
+9d7185b55936372e184188f514c24780,339fa9425f5d4dbf7cff350b0b7a4847,2,"Quanto ao comedouro a empresa está de parabéns; muito bom e satisfatório. Quanto ao Benedouro; em poucas palavras, para mim nao delongar muito: ""UM LIXO"" de equipamento. ",Positive,Product
+5db0686f3ae22fba22057b4ede2ee6f7,f45a9d097cad72a13df7a423d893dab6,2,"Produto entregueantes do prazo. Um relógio muito bonito porém não gostei muito da qualidade do produto, mas mesmo assim gostei.",Positive,Product
+92063a7f4ba581956cd1aafe0e9ea5d7,5f3cc66c9f5ac196a1f367c0fa52695f,1,fico aguardando,Positive,Product
+76c0dd108c0e8f75fd7c1649f51307a3,d8e2d2a26010eb732a91d8b6952e2c9e,2,Boa tarde! Achei que demorou bastante a chegar em minha residência. Mas apesar da demora estou satisfeita com meu varal.,Positive,Product
+68943d08a20deb9b08c7de80a0927214,b27b73e4dc66dd3733d11cd49b3474be,1,"Produto veio correto, só achei muito pequeno. Não gostei por isso. Mas produto foi entregue no prazo tudo certinho. ",Positive,Product
+d69fcd69f7fb8e5378c8aebaadbadd2f,c19151387b76297886c53149367cac4d,2,"Comprei duas luminárias, veio cada uma numa caixa escrito ""frágil"". Uma a caixa amassou mas a luminária tava certinho, então tudo ótimo. Mas a outra a luminária estava quebrada!!!!",Positive,Product
+03c94c298d46744dbf3a673740d850dd,80cf8a8487e5b2664cc0bacc1a57063f,1,"Demora para enviar o produto, levou mais de 20 dias e quando foi enviado mensagem perguntando sobre o motivo na demora para despachar fui sumariamente ignorado. O produto, apesar disso, veio certinho.",Positive,CustomerService
+b32788e7bb1d982656858323b4aa324d,4fc714d903314beff16d93bd2e75f612,1,mais de 30 dias para entregar um produto pequeno !! É demais !,Positive,Delivery
+14876c10d791683465f83751ff33064d,296752c5e35a99dd06b9100ab400c8eb,2,Produto bom,Positive,Product
+0ba0eb2b255cfe3925088677a49add35,cf5439c6b13deafe107ecca7dcc58b80,1,"paguei 80 rreais de frete, quero esse produro na minha porta",Positive,Product
+c0881b2797529c9af9325018e7fbb694,fd7eb2117233aa5ac29e94a28e082077,1,o produto era exatamente o que eu precisasa,Positive,Product
+9740c39fe70be3fdd5b610c34358a278,be73d4698f2f4939662dd7788cf3dad3,2,Até as que dão no lava car e postos de gasolina são melhores.,Positive,Product
+1a393495bf6472d5ee440d0d12099f98,dc8211dc85eb0da6c9f3155218cb4113,1,Gostei do produto.,Positive,Product
