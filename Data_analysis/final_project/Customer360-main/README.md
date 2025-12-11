@@ -102,6 +102,111 @@ Sử dụng **Olist Brazilian E-Commerce dataset**:
 
 ---
 
+## 📊 Tóm tắt Insight chính từ Phân tích
+
+### **1. Phân tích mô tả (Descriptive Analysis)**
+
+#### 1.1. Địa lý & Khả năng tiếp cận
+- **80% khách hàng tập trung ở ~300 thành phố** (trong tổng số 4.000+) - Quy tắc Pareto
+- São Paulo chiếm 15.540 khách (~gấp đôi Rio de Janeiro)
+- **Vùng xa (North/Northeast) chịu phí ship gấp 1.5-2x** và **thời gian giao gấp đôi** vùng gần
+- 🎯 **Hành động**: Tập trung 80% marketing budget vào top 50 thành phố; trợ cấp phí ship 30-50% cho vùng xa
+
+#### 1.2. Tài chính & Chi tiêu  
+- **Median order value ~100 BRL** (sức mua trung bình thấp)
+- **5% VIP customers đóng góp 20% doanh thu** (Pareto rule)
+- **Phí ship chiếm 15-20% giá trị đơn hàng** - khá cao
+- 🎯 **Hành động**: Chương trình VIP loyalty; free ship cho đơn >150 BRL
+
+#### 1.3. Hành vi thanh toán
+- **73% đơn dùng credit card**, 30% chia nhỏ thanh toán (installments)
+- **Brazil = văn hóa trả góp** - đơn hàng lớn thường trả 3-6 kỳ
+- 🎯 **Hành động**: Highlight tính năng "Chia 3 kỳ 0% lãi suất" ở product page
+
+#### 1.4. Sản phẩm quan tâm
+- **Top 3 categories**: bed_bath_table, health_beauty, sports_leisure
+- **Q4 chiếm 35% doanh thu năm** (mùa cao điểm cuối năm)
+- 🎯 **Hành động**: Stock up Q4; cross-sell giữa bed_bath + furniture
+
+#### 1.5. Trải nghiệm & Sự hài lòng
+- **11.5% đơn hàng nhận 1 sao** (critical issue)
+- **Giao trung bình sớm 12 ngày** (under-promise strategy works)
+- **6.6% đơn giao trễ → tạo ra phần lớn 1-star reviews**
+- 🎯 **Hành động**: Giảm tỷ lệ trễ xuống <3%; cảnh báo sớm + voucher bồi thường
+
+---
+
+### **2. Phân tích khám phá (Exploratory Analysis)**
+
+#### 2.1. Địa lý & Vận hành
+- **Distance ≠ Freight** (r=0.4) - **trọng lượng & carrier quan trọng hơn**
+- Vùng xa trả **1.8x phí ship** nhưng vẫn mua = potential market lớn
+- 🎯 **Hành động**: Đàm phán với 2-3 carriers khác nhau theo region
+
+#### 2.2. Phân tích Giỏ hàng
+- **Chỉ 10% đơn hàng có ≥2 categories** (người Brazil mua focused)
+- **Top pairs**: Bed Bath + Furniture, Beauty + Perfumery, Sports + Toys
+- Mua nhiều món ≠ món rẻ (hypothesis rejected, r≈0)
+- 🎯 **Hành động**: "Frequently bought together" bundles; combo discount 5-10%
+
+#### 2.3. Động lực của Sự hài lòng
+- **10 days = ngưỡng tâm lý** (>10 days → review score giảm mạnh)
+- **"Thất hứa" tệ hơn "chờ lâu"** (gap time > delivery time impact)
+- **VIP customers khắt khe hơn 0.2 điểm** trong rating
+- **Giao sớm → higher NPS**
+- 🎯 **Hành động**: Promise delivery +2 days buffer; prioritize VIP orders
+
+---
+
+### **3. Phân tích chẩn đoán (Diagnostic Analysis)**
+
+#### 3.1. Tiếng nói khách hàng (NLP Sentiment)
+- **65% negative reviews liên quan đến logistics** (giao trễ, hàng hỏng)
+- **35% liên quan đến seller** (sai mô tả, chất lượng kém)
+- Phát hiện cases **rating 1-2 sao nhưng comment tích cực** → do delivery delay
+- 🎯 **Hành động**: Alert system cho đơn có risk trễ; audit sellers có >15% bad reviews
+
+#### 3.2. Hành vi "Một đi không trở lại"
+- **Khách quay lại**: mua fast-moving goods (beauty, pet, food) + có trải nghiệm lần đầu tốt (avg 4.5 sao)
+- **Khách một lần**: mua đồ bền (furniture, electronics) + trải nghiệm trung bình (avg 3.8 sao)
+- 🎯 **Hành động**: Retarget khách mua beauty/pet với email "Re-order now"; không spam khách mua furniture
+
+---
+
+### **4. Phân tích dự đoán (Predictive Analysis)**
+
+#### 4.1. Phân cụm khách hàng (Clustering)
+**7 nhóm customer segments** dựa trên RFM + behavior:
+- 🟪 **BigDeal** (2%): Đơn cực lớn, mua không thường xuyên → Chăm sóc riêng
+- 🟤 **Valuable** (8%): Tần suất cao, giá trị cao → VIP program
+- 🟦 **Nurture** (12%): Mới mua, có tiềm năng → Onboarding emails
+- 🟩 **Develop** (25%): Mua vừa phải → Cross-sell & upsell
+- 🟨 **Core** (35%): Backbone khách hàng → Duy trì quality
+- 🟥 **Re-Engage** (15%): Lâu không mua → Win-back campaigns
+- ⚫ **Dormant** (3%): Đã churn → Low priority
+
+🎯 **Hành động**: Tự động phân cluster qua Streamlit app; personalize marketing theo cluster
+
+#### 4.2. Dự đoán Churn
+- **Churn risk prediction model**: Accuracy ~78% (Random Forest)
+- **Top churn factors**: late_delivery_rate, low_review_score, long_recency, low_frequency
+- **15% customers có high churn risk (>70%)**
+- 🎯 **Hành động**: Proactive retention cho high-risk segment; ưu đãi đặc biệt trước khi rời bỏ
+
+---
+
+## 🎯 Top 5 Actions ưu tiên cao nhất
+
+| **Priority** | **Action** | **Expected Impact** | **Timeline** |
+|:---:|---|---|:---:|
+| 🔴 **1** | **Giảm tỷ lệ giao trễ từ 6.6% → <3%** | Giảm 50% negative reviews | Q1 2026 |
+| 🔴 **2** | **Xây dựng VIP program cho top 5% khách** | +20% retention rate | Q1 2026 |
+| 🟠 **3** | **Trợ cấp phí ship vùng North/Northeast** | +30% market share vùng xa | Q2 2026 |
+| 🟠 **4** | **Cảnh báo & bồi thường proactive cho đơn risk** | -70% churn rate từ late delivery | Q1 2026 |
+| 🟡 **5** | **Cross-sell bundles "Frequently bought together"** | +15% average basket size | Q2 2026 |
+
+---
+
 ## Triển khai
 
 - **Streamlit App:**  
@@ -148,5 +253,3 @@ olist-customer-lifecycle/
 ├── 📝 README.md
 └── 📄 requirements.txt
 ```
-
----
