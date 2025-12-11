@@ -1,170 +1,158 @@
-SUMMARY
+TÓM TẮT
+
 ================================================================================
 
-These files contain 1,000,209 anonymous ratings of approximately 3,900 movies 
-made by 6,040 MovieLens users who joined MovieLens in 2000.
+Các tệp này chứa 1.000.209 lượt đánh giá ẩn danh cho khoảng 3.900 bộ phim, được thực hiện bởi 6.040 người dùng MovieLens đã tham gia trang MovieLens vào năm 2000.
 
-USAGE LICENSE
+GIẤY PHÉP SỬ DỤNG
+
 ================================================================================
 
-Neither the University of Minnesota nor any of the researchers
-involved can guarantee the correctness of the data, its suitability
-for any particular purpose, or the validity of results based on the
-use of the data set.  The data set may be used for any research
-purposes under the following conditions:
+Trường Đại học Minnesota và các nhà nghiên cứu liên quan không đảm bảo tính chính xác của dữ liệu, tính phù hợp cho bất kỳ mục đích cụ thể nào, hoặc tính hợp lệ của các kết quả dựa trên việc sử dụng bộ dữ liệu này.
 
-     * The user may not state or imply any endorsement from the
-       University of Minnesota or the GroupLens Research Group.
+Bộ dữ liệu có thể được sử dụng cho mục đích nghiên cứu với các điều kiện sau:
 
-     * The user must acknowledge the use of the data set in
-       publications resulting from the use of the data set
-       (see below for citation information).
+Người dùng không được tuyên bố hoặc ngụ ý rằng Đại học Minnesota hay Nhóm Nghiên cứu GroupLens ủng hộ hoặc xác nhận công trình của mình.
 
-     * The user may not redistribute the data without separate
-       permission.
+Người dùng phải ghi nhận việc sử dụng bộ dữ liệu trong các ấn phẩm hoặc nghiên cứu có liên quan (xem phần trích dẫn bên dưới).
 
-     * The user may not use this information for any commercial or
-       revenue-bearing purposes without first obtaining permission
-       from a faculty member of the GroupLens Research Project at the
-       University of Minnesota.
+Người dùng không được phân phối lại dữ liệu này nếu không có sự cho phép riêng.
 
-If you have any further questions or comments, please contact GroupLens
-<grouplens-info@cs.umn.edu>. 
+Người dùng không được sử dụng bộ dữ liệu cho mục đích thương mại hoặc sinh lợi mà không có sự cho phép của một giảng viên thuộc Dự án Nghiên cứu GroupLens tại Đại học Minnesota.
 
-CITATION
+Nếu có bất kỳ câu hỏi hoặc phản hồi nào, vui lòng liên hệ GroupLens qua email:
+📧 grouplens-info@cs.umn.edu
+
+TRÍCH DẪN (CITATION)
+
 ================================================================================
 
-To acknowledge use of the dataset in publications, please cite the following
-paper:
+Khi trích dẫn bộ dữ liệu này trong các ấn phẩm, vui lòng ghi rõ nguồn như sau:
 
-F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History
-and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4,
-Article 19 (December 2015), 19 pages. DOI=http://dx.doi.org/10.1145/2827872
+F. Maxwell Harper và Joseph A. Konstan. 2015.
+The MovieLens Datasets: History and Context.
+ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4, Article 19 (Tháng 12 năm 2015), 19 trang.
+DOI: http://dx.doi.org/10.1145/2827872
 
+LỜI CẢM ƠN
 
-ACKNOWLEDGEMENTS
 ================================================================================
 
-Thanks to Shyong Lam and Jon Herlocker for cleaning up and generating the data
-set.
+Xin cảm ơn Shyong Lam và Jon Herlocker đã thực hiện việc làm sạch và tạo ra bộ dữ liệu này.
 
-FURTHER INFORMATION ABOUT THE GROUPLENS RESEARCH PROJECT
+THÔNG TIN THÊM VỀ DỰ ÁN NGHIÊN CỨU GROUPLENS
+
 ================================================================================
 
-The GroupLens Research Project is a research group in the Department of 
-Computer Science and Engineering at the University of Minnesota. Members of 
-the GroupLens Research Project are involved in many research projects related 
-to the fields of information filtering, collaborative filtering, and 
-recommender systems. The project is lead by professors John Riedl and Joseph 
-Konstan. The project began to explore automated collaborative filtering in 
-1992, but is most well known for its world wide trial of an automated 
-collaborative filtering system for Usenet news in 1996. Since then the project 
-has expanded its scope to research overall information filtering solutions, 
-integrating in content-based methods as well as improving current collaborative 
-filtering technology.
+GroupLens Research Project là một nhóm nghiên cứu thuộc Khoa Khoa học Máy tính và Kỹ thuật, Đại học Minnesota.
 
-Further information on the GroupLens Research project, including research 
-publications, can be found at the following web site:
-        
-        http://www.grouplens.org/
+Các thành viên của GroupLens tập trung nghiên cứu trong các lĩnh vực như:
 
-GroupLens Research currently operates a movie recommender based on 
-collaborative filtering:
+Lọc thông tin (Information Filtering)
 
-        http://www.movielens.org/
+Lọc cộng tác (Collaborative Filtering)
 
-RATINGS FILE DESCRIPTION
+Hệ thống gợi ý (Recommender Systems)
+
+Nhóm được dẫn dắt bởi Giáo sư John Riedl và Giáo sư Joseph Konstan.
+
+Dự án bắt đầu nghiên cứu về lọc cộng tác tự động từ năm 1992, và nổi tiếng với hệ thống thử nghiệm toàn cầu lọc cộng tác cho tin tức Usenet ra mắt năm 1996.
+
+Kể từ đó, nhóm đã mở rộng phạm vi nghiên cứu bao gồm cả phương pháp dựa trên nội dung (Content-Based Filtering) và cải tiến các kỹ thuật lọc cộng tác hiện có.
+
+Thông tin chi tiết và các ấn phẩm nghiên cứu có thể tìm thấy tại:
+🌐 http://www.grouplens.org/
+
+Hiện tại, GroupLens đang vận hành một hệ thống gợi ý phim dựa trên lọc cộng tác:
+🎬 http://www.movielens.org/
+
+MÔ TẢ TỆP RATING (ĐÁNH GIÁ)
+
 ================================================================================
 
-All ratings are contained in the file "ratings.dat" and are in the
-following format:
+Tất cả các đánh giá được lưu trong tệp “ratings.dat” theo định dạng:
 
 UserID::MovieID::Rating::Timestamp
 
-- UserIDs range between 1 and 6040 
-- MovieIDs range between 1 and 3952
-- Ratings are made on a 5-star scale (whole-star ratings only)
-- Timestamp is represented in seconds since the epoch as returned by time(2)
-- Each user has at least 20 ratings
 
-USERS FILE DESCRIPTION
+UserID: từ 1 đến 6040
+
+MovieID: từ 1 đến 3952
+
+Rating: thang điểm 1 đến 5 sao (chỉ điểm nguyên)
+
+Timestamp: thời gian tính bằng giây kể từ mốc thời gian epoch (UNIX time)
+
+Mỗi người dùng có ít nhất 20 lượt đánh giá
+
+MÔ TẢ TỆP USERS (NGƯỜI DÙNG)
+
 ================================================================================
 
-User information is in the file "users.dat" and is in the following
-format:
+Thông tin người dùng được lưu trong tệp “users.dat” theo định dạng:
 
 UserID::Gender::Age::Occupation::Zip-code
 
-All demographic information is provided voluntarily by the users and is
-not checked for accuracy.  Only users who have provided some demographic
-information are included in this data set.
 
-- Gender is denoted by a "M" for male and "F" for female
-- Age is chosen from the following ranges:
+Toàn bộ thông tin nhân khẩu học được cung cấp tự nguyện và không được kiểm chứng độ chính xác.
+Chỉ những người dùng có cung cấp thông tin cơ bản mới được bao gồm trong bộ dữ liệu này.
 
-	*  1:  "Under 18"
-	* 18:  "18-24"
-	* 25:  "25-34"
-	* 35:  "35-44"
-	* 45:  "45-49"
-	* 50:  "50-55"
-	* 56:  "56+"
+Gender (Giới tính):
 
-- Occupation is chosen from the following choices:
+M = Nam
 
-	*  0:  "other" or not specified
-	*  1:  "academic/educator"
-	*  2:  "artist"
-	*  3:  "clerical/admin"
-	*  4:  "college/grad student"
-	*  5:  "customer service"
-	*  6:  "doctor/health care"
-	*  7:  "executive/managerial"
-	*  8:  "farmer"
-	*  9:  "homemaker"
-	* 10:  "K-12 student"
-	* 11:  "lawyer"
-	* 12:  "programmer"
-	* 13:  "retired"
-	* 14:  "sales/marketing"
-	* 15:  "scientist"
-	* 16:  "self-employed"
-	* 17:  "technician/engineer"
-	* 18:  "tradesman/craftsman"
-	* 19:  "unemployed"
-	* 20:  "writer"
+F = Nữ
 
-MOVIES FILE DESCRIPTION
+Age (Tuổi) thuộc một trong các nhóm sau:
+
+Mã	Nhóm tuổi
+1	Dưới 18
+18	18–24
+25	25–34
+35	35–44
+45	45–49
+50	50–55
+56	56+
+
+Occupation (Nghề nghiệp) thuộc các loại sau:
+
+Mã	Nghề nghiệp
+0	Khác hoặc không xác định
+1	Giảng viên / Nhà giáo
+2	Nghệ sĩ
+3	Nhân viên hành chính / Văn phòng
+4	Sinh viên đại học / cao học
+5	Dịch vụ khách hàng
+6	Bác sĩ / Nhân viên y tế
+7	Quản lý / Điều hành
+8	Nông dân
+9	Nội trợ
+10	Học sinh phổ thông
+11	Luật sư
+12	Lập trình viên
+13	Nghỉ hưu
+14	Bán hàng / Marketing
+15	Nhà khoa học
+16	Tự doanh
+17	Kỹ thuật viên / Kỹ sư
+18	Thợ thủ công
+19	Thất nghiệp
+20	Nhà văn
+MÔ TẢ TỆP MOVIES (PHIM)
+
 ================================================================================
 
-Movie information is in the file "movies.dat" and is in the following
-format:
+Thông tin phim được lưu trong tệp “movies.dat” theo định dạng:
 
 MovieID::Title::Genres
 
-- Titles are identical to titles provided by the IMDB (including
-year of release)
-- Genres are pipe-separated and are selected from the following genres:
 
-	* Action
-	* Adventure
-	* Animation
-	* Children's
-	* Comedy
-	* Crime
-	* Documentary
-	* Drama
-	* Fantasy
-	* Film-Noir
-	* Horror
-	* Musical
-	* Mystery
-	* Romance
-	* Sci-Fi
-	* Thriller
-	* War
-	* Western
+Title (Tiêu đề): giống hệt như trên IMDB, bao gồm cả năm phát hành.
 
-- Some MovieIDs do not correspond to a movie due to accidental duplicate
-entries and/or test entries
-- Movies are mostly entered by hand, so errors and inconsistencies may exist
+Genres (Thể loại): được ngăn cách bằng ký tự “|”, và chọn từ danh sách sau:
+
+Action, Adventure, Animation, Children's, Comedy, Crime, Documentary, Drama, Fantasy, Film-Noir, Horror, Musical, Mystery, Romance, Sci-Fi, Thriller, War, Western
+
+Một số MovieID không tương ứng với bộ phim thực tế do lỗi trùng lặp hoặc bản thử nghiệm.
+
+Dữ liệu phim được nhập thủ công, nên có thể tồn tại sai sót hoặc không nhất quán.
