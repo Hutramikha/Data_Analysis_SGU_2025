@@ -84,28 +84,21 @@ Sử dụng **Olist Brazilian E-Commerce dataset**:
 ### **3. Phân tích chẩn đoán**
 #### 3.1 Chẩn đoán "Tiếng nói khách hàng" (NLP tìm negative + AI model phân loại điểm nghẽn)
 **Mục tiêu**: Giải mã lý do thực sự đằng sau các con số 1 sao, 2 sao. Dữ liệu số (Rating) chỉ cho biết mức độ, dữ liệu chữ (Comment) mới cho biết nguyên nhân.
-- Trong số các đánh giá tiêu cực (1-2 sao), bao nhiêu % nhắc đến từ khóa liên quan "logistics" (chậm, chưa nhận được), bao nhiêu % liên quan đến "product" (hỏng, sai màu, hàng giả)?
-- Có trường hợp nào khách đánh giá 5 sao nhưng comment phàn nàn (hoặc ngược lại) không? Tại sao?
-- Những chủ đề (Topic) chính mà khách hàng thường thảo luận là gì? (Ví dụ: Topic 1: Giao hàng, Topic 2: Chất lượng, Topic 3: Dịch vụ CSKH).
+- Có trường hợp nào khách đánh giá 1-2 sao nhưng comment tích cực không? Tại sao?
+- Trong tổng số các đánh giá tiêu cực (1-2 sao), tỷ lệ phần trăm dành cho các vấn đề liên quan đến Vận Chuyển (Logistics) và các vấn đề do Người Bán (Seller) gây ra (thường liên quan đến sản phẩm) là bao nhiêu?
 
-#### 3.2 
+#### 3.2 Chẩn đoán Hành vi "Một đi không trở lại"
+**Mục tiêu**: So sánh nhóm "Khách quay lại" và "Khách một lần" để tìm ra sự khác biệt.
+- Có phải nhóm quay lại là nhóm mua các sản phẩm tiêu dùng nhanh còn nhóm mua 1 lần là mua đồ bền?
+- Nhóm khách hàng quay lại có trải nghiệm lần mua đầu tiên tốt hơn nhóm bỏ đi không?
 ----
 
 ### **4. Phân tích dự đoán**
 #### 4.1 Phân cụm Khách hàng (Clustering, unsupervised learning)
 **Mục tiêu**: Tự động gom nhóm khách hàng có hành vi tương đồng mà không cần định nghĩa trước.
-- Nếu không dùng RFM (do Frequency = 1), liệu có thể phân nhóm khách hàng dựa trên tổ hợp: Sức mua (Monetary) + Độ nhạy cảm phí ship (Freight Ratio) + Thói quen trả góp (Installments) không?
-- Nhóm khách hàng nào mang lại lợi nhuận biên cao nhất dù chỉ mua 1 lần? (Ví dụ: Mua hàng giá trị cao + Không đổi trả + Phí ship thấp).
-- Khách hàng ở các thành phố lớn (Sao Paulo) có hành vi khác biệt hoàn toàn so với khách hàng vùng sâu vùng xa không? (Cụm "Urban Shoppers" vs "Rural Shoppers").
 
-#### 4.2 Dự báo Sự hài lòng (Classification, Supervised Learning)
-**Mục tiêu** : Dự đoán khách sẽ vui hay buồn ngay khi họ vừa đặt hàng (hoặc vừa nhận hàng) để can thiệp sớm.
-- Dựa trên thông tin đơn hàng (Sản phẩm, Seller, Khoảng cách), xác suất khách hàng này sẽ đánh giá 1 sao (Bad Experience) là bao nhiêu %?
-- Thuật toán đánh giá yếu tố nào quan trọng nhất trong việc dự đoán 1 sao? (Là do giao trễ hay do phí ship cao?).
-- Ở mức thời gian giao hàng nào (ví dụ: ngày thứ 15) thì xác suất hài lòng giảm mạnh xuống dưới 50%?
-
-#### 4.3 Sự rời bỏ (Churn)
-**Mục tiêu**: Kịp thời nắm bắt khách nào sẽ rời đi
+#### 4.2 Sự rời bỏ (Churn)
+**Mục tiêu**: Dự đoán các tập khách đang hoạt động có thể rời bỏ sàn trong 150 ngày tới không?
 
 ---
 
