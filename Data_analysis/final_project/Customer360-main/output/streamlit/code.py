@@ -20,6 +20,7 @@ customer360_df = featured_df.merge(
     how="left",
 )
 
+
 # -------------------------- Hàm phụ trợ an toàn --------------------------
 def rank_to_1_5(series):
     """Chuyển rank thành 1..5 an toàn cho tập nhỏ"""
