@@ -47,7 +47,8 @@ def validate_date(ts):
 # -------------------------- Giao diện Streamlit (Tiếng Việt) --------------------------
 st.markdown("<h1 style='text-align: center;'>Customer360</h1>", unsafe_allow_html=True)
 
-st.sidebar.header("Tùy chọn")
+st.sidebar.markdown("## 🎯 Customer 360")
+st.sidebar.info("Chọn khách hàng để xem toàn bộ hồ sơ & hành vi")
 selected_customer = st.sidebar.selectbox(
     "Chọn khách", customer360_df["customer_unique_id"].tolist()
 )
@@ -89,6 +90,18 @@ with tab_profile:
         @media (max-width: 640px) {
         .kpi-card { padding:10px; font-size:14px; }
         }
+        .cluster-core { border-left:6px solid #FF4B4B; }
+        .cluster-valuable { border-left:6px solid #8B5A2B; }
+        .cluster-bigdeal { border-left:6px solid #7A4DD8; }
+        .cluster-nurture { border-left:6px solid #1F77B4; }
+        .cluster-develop { border-left:6px solid #2CA02C; }
+        .cluster-reengage { border-left:6px solid #FF7F0E; }
+
+        .insight-box {
+            background: rgba(240,248,255,0.9);
+            padding: 14px;
+            border-radius: 10px;
+            margin-bottom: 10px;
         </style>
         """,
         unsafe_allow_html=True,
@@ -113,8 +126,9 @@ with tab_profile:
             f"<div class='kpi-card'><b>📅 Tỷ lệ đơn / tháng</b><div class='value'>{cust_row['orders_per_month']:.2f}</div></div>",
             unsafe_allow_html=True,
         )
+        cluster = cust_row["ClusterLabel"].lower().replace("-", "")
         cols[4].markdown(
-            f"<div class='kpi-card'><b>🧑‍🤝‍🧑 Nhóm</b><div class='value'>{cust_row['ClusterLabel']}</div></div>",
+            f"""<div class='kpi-card cluster-{cluster}'><b>🧑‍🤝‍🧑 Nhóm</b><div class='value'>{cust_row['ClusterLabel']}</div></div>""",
             unsafe_allow_html=True,
         )
 
@@ -243,6 +257,7 @@ with tab_profile:
     # Hiển thị các insight
     for it in insights:
         st.markdown(f"- {it}")
+
     st.caption(
         "Ghi chú: Insight được thiết lập theo nhóm, có khả năng sai số với từng khách hàng riêng biệt."
     )
