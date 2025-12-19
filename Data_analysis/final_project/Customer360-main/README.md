@@ -87,10 +87,6 @@ Sử dụng **Olist Brazilian E-Commerce dataset**:
 - Có trường hợp nào khách đánh giá 1-2 sao nhưng comment tích cực không? Tại sao?
 - Trong tổng số các đánh giá tiêu cực (1-2 sao), tỷ lệ phần trăm dành cho các vấn đề liên quan đến Vận Chuyển (Logistics) và các vấn đề do Người Bán (Seller) gây ra (thường liên quan đến sản phẩm) là bao nhiêu?
 
-#### 3.2 Chẩn đoán Hành vi "Một đi không trở lại"
-**Mục tiêu**: So sánh nhóm "Khách quay lại" và "Khách một lần" để tìm ra sự khác biệt.
-- Có phải nhóm quay lại là nhóm mua các sản phẩm tiêu dùng nhanh còn nhóm mua 1 lần là mua đồ bền?
-- Nhóm khách hàng quay lại có trải nghiệm lần mua đầu tiên tốt hơn nhóm bỏ đi không?
 ----
 
 ### **4. Phân tích dự đoán**
